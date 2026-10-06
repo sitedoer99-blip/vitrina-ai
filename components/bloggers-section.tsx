@@ -61,10 +61,10 @@ export function BloggersSection() {
           </div>
         </Reveal>
 
-        <ul className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+        <ul className="grid items-start gap-5 sm:grid-cols-2">
           {visible.map((blogger, index) => (
             <li key={blogger.id}>
-              <Reveal delay={(index % 3) * 120}>
+              <Reveal delay={(index % 2) * 120}>
                 <BloggerCard blogger={blogger} />
               </Reveal>
             </li>
