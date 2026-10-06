@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import { ArrowUpRight, Send } from 'lucide-react'
 import type { Blogger } from '@/lib/bloggers'
+import { BloggerDetails } from '@/components/blogger-details'
 
 export function BloggerCard({ blogger }: { blogger: Blogger }) {
   return (
@@ -76,6 +77,8 @@ export function BloggerCard({ blogger }: { blogger: Blogger }) {
           </span>
         </a>
       </div>
+
+      <BloggerDetails blogger={blogger} />
     </article>
   )
 }

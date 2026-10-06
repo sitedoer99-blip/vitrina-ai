@@ -100,7 +100,7 @@ function HeroVisual() {
       </div>
       <div className="absolute -right-4 top-16 hidden h-[70%] w-[55%] rotate-6 overflow-hidden rounded-3xl border border-border opacity-50 sm:block">
         <Image
-          src="/bloggers/sofia.png"
+          src="/bloggers/denis.png"
           alt=""
           fill
           sizes="200px"
