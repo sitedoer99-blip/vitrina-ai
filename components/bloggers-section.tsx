@@ -7,9 +7,9 @@ import { Reveal } from '@/components/reveal'
 import { cn } from '@/lib/utils'
 
 export function BloggersSection() {
-  const [active, setActive] = useState<(typeof categories)[number]>('Все')
+  const [active, setActive] = useState<(typeof categories)[number]>('Усі')
   const visible =
-    active === 'Все' ? bloggers : bloggers.filter((b) => b.category === active)
+    active === 'Усі' ? bloggers : bloggers.filter((b) => b.category === active)
 
   return (
     <section
@@ -21,25 +21,25 @@ export function BloggersSection() {
         <Reveal className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
           <div className="flex flex-col gap-3">
             <p className="font-mono text-xs uppercase tracking-[0.2em] text-primary">
-              Витрина
+              Вітрина
             </p>
             <h2
               id="bloggers-title"
               className="text-balance font-display text-3xl font-semibold tracking-tight md:text-4xl"
             >
-              Отобрано нейросетью
+              Відібрано нейромережею
             </h2>
           </div>
           <p className="max-w-sm text-pretty text-sm leading-relaxed text-muted-foreground">
-            Каждый автор прошёл AI-проверку на накрутки, качество контента и
-            лояльность аудитории.
+            Кожен автор пройшов AI-перевірку на накрутки, якість контенту та
+            лояльність аудиторії.
           </p>
         </Reveal>
 
         <Reveal delay={100}>
           <div
             role="group"
-            aria-label="Фильтр по категориям"
+            aria-label="Фільтр за категоріями"
             className="-mx-4 flex gap-2 overflow-x-auto px-4 pb-1 [scrollbar-width:none] md:mx-0 md:flex-wrap md:px-0"
           >
             {categories.map((category) => (

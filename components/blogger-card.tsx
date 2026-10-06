@@ -24,7 +24,7 @@ export function BloggerCard({ blogger }: { blogger: Blogger }) {
           </span>
           <span className="glass-strong flex items-center gap-1 rounded-full px-2.5 py-1 font-mono text-xs">
             <span className="size-1.5 rounded-full bg-primary" aria-hidden="true" />
-            <span className="sr-only">Совпадение по AI-анализу:</span>
+            <span className="sr-only">Збіг за AI-аналізом:</span>
             {blogger.match}%
           </span>
         </div>
@@ -39,7 +39,7 @@ export function BloggerCard({ blogger }: { blogger: Blogger }) {
             </div>
             <dl className="flex shrink-0 gap-4 text-right">
               <div className="flex flex-col">
-                <dt className="text-[11px] text-muted-foreground">Охват</dt>
+                <dt className="text-[11px] text-muted-foreground">Охоплення</dt>
                 <dd className="text-sm font-semibold">{blogger.followers}</dd>
               </div>
               <div className="flex flex-col">
@@ -58,9 +58,9 @@ export function BloggerCard({ blogger }: { blogger: Blogger }) {
         <a
           href={blogger.blogUrl}
           className="flex items-center justify-center gap-1.5 whitespace-nowrap rounded-xl bg-primary px-2 py-3 text-[13px] font-semibold text-primary-foreground transition-all hover:brightness-110 active:scale-[0.97]"
-          aria-label={`Смотреть блог: ${blogger.name}`}
+          aria-label={`Дивитися блог: ${blogger.name}`}
         >
-          Смотреть блог
+          Дивитися блог
           <ArrowUpRight className="size-4" aria-hidden="true" />
         </a>
         <a

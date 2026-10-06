@@ -16,9 +16,9 @@ const unbounded = Unbounded({
 })
 
 export const metadata: Metadata = {
-  title: 'VITRINA.AI — AI-витрина блогеров',
+  title: 'VITRINA.AI — AI-вітрина блогерів',
   description:
-    'Премиальная AI-витрина блогеров: искусственный интеллект подбирает авторов под вашу аудиторию. Смотрите блоги и переходите в Telegram в один клик.',
+    'Преміальна AI-вітрина блогерів: штучний інтелект підбирає авторів під вашу аудиторію. Дивіться блоги та переходьте в Telegram в один клік.',
   generator: 'v0.app',
   icons: {
     icon: [
@@ -53,7 +53,7 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="ru"
+      lang="uk"
       className={`${manrope.variable} ${unbounded.variable} bg-background`}
     >
       <body className="font-sans antialiased">

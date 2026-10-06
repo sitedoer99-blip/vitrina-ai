@@ -1,9 +1,9 @@
 import { Send } from 'lucide-react'
 
 const navLinks = [
-  { href: '#bloggers', label: 'Блогеры' },
-  { href: '#how', label: 'Как это работает' },
-  { href: '#join', label: 'Сотрудничество' },
+  { href: '#bloggers', label: 'Блогери' },
+  { href: '#how', label: 'Як це працює' },
+  { href: '#join', label: 'Співпраця' },
 ]
 
 export function Logo() {
@@ -11,7 +11,7 @@ export function Logo() {
     <a
       href="#top"
       className="flex items-center gap-2 font-display text-sm font-semibold tracking-tight"
-      aria-label="VITRINA.AI — на главную"
+      aria-label="VITRINA.AI — на головну"
     >
       <span
         aria-hidden="true"
@@ -31,7 +31,7 @@ export function SiteHeader() {
     <header className="fixed inset-x-0 top-0 z-50 px-4 pt-4">
       <div className="glass-strong mx-auto flex max-w-6xl items-center justify-between rounded-2xl px-4 py-3">
         <Logo />
-        <nav aria-label="Основная навигация" className="hidden md:block">
+        <nav aria-label="Основна навігація" className="hidden md:block">
           <ul className="flex items-center gap-8 text-sm text-muted-foreground">
             {navLinks.map((link) => (
               <li key={link.href}>

@@ -2,16 +2,16 @@ import { Reveal } from '@/components/reveal'
 
 const steps = [
   {
-    title: 'AI сканирует',
-    text: 'Нейросеть ежедневно анализирует тысячи аккаунтов: охваты, комментарии, динамику роста и признаки накруток.',
+    title: 'AI сканує',
+    text: 'Нейромережа щодня аналізує тисячі акаунтів: охоплення, коментарі, динаміку зростання та ознаки накруток.',
   },
   {
-    title: 'Отбирает лучших',
-    text: 'В витрину попадают только авторы с живой аудиторией и стабильно высокой вовлечённостью.',
+    title: 'Відбирає найкращих',
+    text: 'До вітрини потрапляють лише автори з живою аудиторією та стабільно високою залученістю.',
   },
   {
-    title: 'Вы на связи',
-    text: 'Смотрите блог и переходите в Telegram автора в один клик — без посредников и ожидания.',
+    title: "Ви на зв'язку",
+    text: 'Дивіться блог і переходьте в Telegram автора в один клік — без посередників і очікування.',
   },
 ]
 
@@ -25,13 +25,13 @@ export function HowItWorks() {
       <div className="mx-auto flex max-w-6xl flex-col gap-10">
         <Reveal className="flex flex-col gap-3">
           <p className="font-mono text-xs uppercase tracking-[0.2em] text-primary">
-            Процесс
+            Процес
           </p>
           <h2
             id="how-title"
             className="text-balance font-display text-3xl font-semibold tracking-tight md:text-4xl"
           >
-            Как это работает
+            Як це працює
           </h2>
         </Reveal>
 

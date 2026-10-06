@@ -36,12 +36,12 @@ export function CtaSection() {
             id="join-title"
             className="max-w-2xl text-balance font-display text-3xl font-semibold tracking-tight md:text-5xl"
           >
-            Новые авторы — каждую неделю в нашем{' '}
+            Нові автори — щотижня в нашому{' '}
             <span className="text-primary">Telegram</span>
           </h2>
           <p className="max-w-md text-pretty text-sm leading-relaxed text-muted-foreground md:text-base">
-            Подписывайтесь, чтобы первыми получать подборки блогеров, отобранных
-            AI, и специальные условия для рекламодателей.
+            Підписуйтеся, щоб першими отримувати добірки блогерів, відібраних
+            AI, та спеціальні умови для рекламодавців.
           </p>
           <a
             href="https://t.me/"
